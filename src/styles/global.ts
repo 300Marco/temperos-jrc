@@ -10,13 +10,24 @@ export const globalStyles = globalCss({
     boxSizing: 'border-box',
   },
 
+  '@font-face': [
+    {
+      fontFamily: 'Inter',
+      src: 'https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap',
+    },
+    {
+      fontFamily: 'Baloo 2',
+      src: 'https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap',
+    },
+  ],
+
   body: {
     backgroundColor: '$background',
     color: '$gray900',
   },
 
   'body, input, textarea, button': {
-    fontFamily: 'Roboto',
+    fontFamily: 'Inter',
     fontSize: '1.25rem',
     fontWeight: 400,
   },
