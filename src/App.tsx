@@ -1,13 +1,10 @@
 import { globalStyles } from './styles/global'
+import { DefaultLayout } from './layouts/DefaultLayout'
 
 globalStyles()
 
 export function App() {
-  return (
-    <>
-      <h1>Start</h1>
-    </>
-  )
+  return <DefaultLayout />
 }
 
 export default App
