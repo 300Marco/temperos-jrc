@@ -38,7 +38,8 @@ export const SectionVarietiesContent = styled('section', {
   },
 
   h2: {
-    fontWeight: '700',
+    fontFamily: '"Baloo 2", sans-serif',
+    fontWeight: 700,
     fontSize: '2.25rem',
     lineHeight: '160%',
   },
@@ -77,9 +78,10 @@ export const SectionOptionsContent = styled('div', {
   gap: '3.75rem',
 
   h2: {
-    fontSize: '2.5rem',
+    fontSize: '2.25rem',
     lineHeight: '160%',
     textAlign: 'center',
+    fontFamily: '"Baloo 2", sans-serif',
   },
 })
 
@@ -127,13 +129,14 @@ export const SectionProcessContent = styled('div', {
     lineHeight: '160%',
     fontSize: '2.25rem',
     fontWeight: 700,
+    fontFamily: '"Baloo 2", sans-serif',
   },
 
   p: {
     color: '$gray700',
     fontSize: '1.25rem',
     lineHeight: '130%',
-    padding: '0 3rem',
+    padding: '0 1rem',
   },
 })
 
@@ -176,6 +179,7 @@ export const Card = styled('div', {
     fontWeight: 600,
     lineHeight: '130%',
     fontSize: '1.5rem',
+    fontFamily: '"Baloo 2", sans-serif',
   },
 
   p: {

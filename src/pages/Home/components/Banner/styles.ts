@@ -40,6 +40,8 @@ export const BoxInfo = styled('div', {
   h2: {
     fontSize: '2.5rem',
     lineHeight: '130%',
+    fontFamily: '"Baloo 2", sans-serif',
+    fontWeight: 700,
   },
 
   p: {

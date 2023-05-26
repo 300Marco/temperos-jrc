@@ -3,6 +3,9 @@
 import { globalCss } from '.'
 
 export const globalStyles = globalCss({
+  '@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&display=swap")':
+    {},
+
   '*': {
     margin: 0,
     padding: 0,
