@@ -188,3 +188,16 @@ export const Card = styled('div', {
     lineHeight: '130%',
   },
 })
+
+export const Divider = styled('div', {
+  width: '100%',
+  margin: '6.25rem 0',
+
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+
+  img: {
+    width: '100%',
+  },
+})

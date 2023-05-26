@@ -13,6 +13,7 @@ import tempero3 from '../../assets/tempero-3.svg'
 import tempero4 from '../../assets/tempero-4.svg'
 import tempero5 from '../../assets/tempero-5.svg'
 import ilustracaoReceitas from '../../assets/ilustracao-receitas.svg'
+import linhaOndaAmarela from '../../assets/linha-onda-amarela.svg'
 
 import { Banner } from './components/Banner'
 import {
@@ -27,6 +28,7 @@ import {
   SectionProcessContent,
   SectionProcessCards,
   Card,
+  Divider,
 } from './styles'
 
 export function Home() {
@@ -162,6 +164,10 @@ export function Home() {
           </Card>
         </SectionProcessCards>
       </SectionProcesses>
+
+      <Divider>
+        <img src={linhaOndaAmarela} alt="" />
+      </Divider>
     </HomeContainer>
   )
 }
