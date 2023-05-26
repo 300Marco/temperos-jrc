@@ -1,10 +1,13 @@
 import {
   Drop,
+  Envelope,
   Heart,
+  InstagramLogo,
   Package,
   Plus,
   SealCheck,
   Truck,
+  WhatsappLogo,
 } from '@phosphor-icons/react'
 
 import tempero1 from '../../assets/tempero-1.svg'
@@ -14,6 +17,7 @@ import tempero4 from '../../assets/tempero-4.svg'
 import tempero5 from '../../assets/tempero-5.svg'
 import ilustracaoReceitas from '../../assets/ilustracao-receitas.svg'
 import linhaOndaAmarela from '../../assets/linha-onda-amarela.svg'
+import tabuaTemperos from '../../assets/tabua-temperos-coracao-pequena.svg'
 
 import { Banner } from './components/Banner'
 import {
@@ -29,6 +33,11 @@ import {
   SectionProcessCards,
   Card,
   Divider,
+  SectionContact,
+  SectionContactContent,
+  SectionContentInfo,
+  CardContent,
+  CardInfo,
 } from './styles'
 
 export function Home() {
@@ -168,6 +177,44 @@ export function Home() {
       <Divider>
         <img src={linhaOndaAmarela} alt="" />
       </Divider>
+
+      <SectionContact>
+        <h2>Entre em contato agora e solicite já, seus temperos</h2>
+
+        <SectionContactContent>
+          <SectionContentInfo>
+            <CardContent>
+              <CardInfo flexStart>
+                <WhatsappLogo size={40} />
+
+                <div>
+                  <span>(11) 98371-8060</span>
+                  <span>(11) 93397-8752</span>
+                </div>
+              </CardInfo>
+
+              <a href="#">Enviar Mensagem</a>
+            </CardContent>
+
+            <CardContent>
+              <CardInfo>
+                <InstagramLogo size={40} />
+                <span>@jrc_temperos</span>
+              </CardInfo>
+
+              <a href="#">Acessar Perfil</a>
+            </CardContent>
+
+            <CardInfo flexColumn>
+              <Envelope size={40} />
+
+              <span>jairoliveira361517@gmail.com</span>
+            </CardInfo>
+          </SectionContentInfo>
+
+          <img src={tabuaTemperos} alt="" />
+        </SectionContactContent>
+      </SectionContact>
     </HomeContainer>
   )
 }

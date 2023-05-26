@@ -201,3 +201,88 @@ export const Divider = styled('div', {
     width: '100%',
   },
 })
+
+export const SectionContact = styled('section', {
+  width: '70rem',
+
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: '3.75rem',
+
+  h2: {
+    fontSize: '2.25rem',
+    fontFamily: '"Baloo 2", sans-serif',
+    fontWeight: 700,
+  },
+})
+
+export const SectionContactContent = styled('div', {
+  width: '50rem',
+
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+
+  img: {
+    width: '21.875rem',
+  },
+})
+
+export const SectionContentInfo = styled('div', {
+  width: '18.875rem',
+
+  span: {
+    fontWeight: 600,
+  },
+
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '3.75rem',
+})
+
+export const CardContent = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '2rem',
+
+  a: {
+    backgroundColor: '$yellow500',
+    textAlign: 'center',
+    padding: '1rem',
+    fontWeight: 600,
+    color: '$gray900',
+    borderRadius: '8px',
+  },
+})
+
+export const CardInfo = styled('div', {
+  display: 'flex',
+  alignItems: 'center',
+  gap: '1rem',
+
+  variants: {
+    flexStart: {
+      true: {
+        alignItems: 'start',
+      },
+    },
+    flexColumn: {
+      true: {
+        flexDirection: 'column',
+        alignItems: 'start',
+        gap: '1rem',
+      },
+    },
+  },
+
+  svg: {
+    color: '$gray900',
+  },
+
+  div: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '1rem',
+  },
+})
