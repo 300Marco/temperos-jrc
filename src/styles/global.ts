@@ -8,18 +8,8 @@ export const globalStyles = globalCss({
     padding: 0,
     border: 'none',
     boxSizing: 'border-box',
+    listStyleType: 'none',
   },
-
-  '@font-face': [
-    {
-      fontFamily: 'Inter',
-      src: 'https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap',
-    },
-    {
-      fontFamily: 'Baloo 2',
-      src: 'https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap',
-    },
-  ],
 
   body: {
     backgroundColor: '$background',
@@ -27,7 +17,7 @@ export const globalStyles = globalCss({
   },
 
   'body, input, textarea, button': {
-    fontFamily: 'Inter',
+    fontFamily: '"Inter", sans-serif',
     fontSize: '1.25rem',
     fontWeight: 400,
   },

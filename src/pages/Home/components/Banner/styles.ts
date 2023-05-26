@@ -38,13 +38,14 @@ export const BoxInfo = styled('div', {
   gap: '2rem',
 
   h2: {
-    fontSize: '40px',
-    fontFamily: 'Baloo 2',
+    fontSize: '2.5rem',
+    lineHeight: '130%',
   },
 
   p: {
     fontSize: '1.5rem',
     color: '$gray700',
+    lineHeight: '130%',
   },
 
   button: {
