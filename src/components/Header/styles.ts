@@ -7,6 +7,11 @@ export const HeaderContainer = styled('header', {
 
   display: 'flex',
   justifyContent: 'center',
+
+  '@mobile': {
+    height: '8.25rem',
+    padding: '1rem 0',
+  },
 })
 
 export const BoxImage = styled('div', {
@@ -19,5 +24,12 @@ export const BoxImage = styled('div', {
   img: {
     width: '9.375rem',
     height: '9.375rem',
+  },
+
+  '@mobile': {
+    img: {
+      width: '100%',
+      height: '100%',
+    },
   },
 })
