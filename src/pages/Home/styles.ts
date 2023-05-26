@@ -107,3 +107,80 @@ export const SectionOptionsInfo = styled('div', {
     },
   },
 })
+
+export const SectionProcesses = styled('section', {
+  width: '100%',
+  maxWidth: '70rem',
+  marginTop: '8.25rem',
+
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '7.5rem',
+})
+
+export const SectionProcessContent = styled('div', {
+  padding: '0 6rem',
+  textAlign: 'center',
+
+  h2: {
+    marginBottom: '0.375rem',
+    lineHeight: '160%',
+    fontSize: '2.25rem',
+    fontWeight: 700,
+  },
+
+  p: {
+    color: '$gray700',
+    fontSize: '1.25rem',
+    lineHeight: '130%',
+    padding: '0 3rem',
+  },
+})
+
+export const SectionProcessCards = styled('div', {
+  display: 'flex',
+  justifyContent: 'space-between',
+})
+
+export const Card = styled('div', {
+  position: 'relative',
+
+  width: '22.25rem',
+  padding: '4.5rem 2rem 2rem',
+  borderRadius: '2rem',
+  backgroundColor: '$green100',
+  textAlign: 'center',
+
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: '1rem',
+
+  span: {
+    position: 'absolute',
+    top: '-46px',
+
+    padding: '1rem',
+    borderRadius: '50%',
+    backgroundColor: '$green700',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+
+    svg: {
+      color: '$white',
+    },
+  },
+
+  h3: {
+    fontWeight: 600,
+    lineHeight: '130%',
+    fontSize: '1.5rem',
+  },
+
+  p: {
+    fontSize: '1rem',
+    color: '$gray700',
+    lineHeight: '130%',
+  },
+})

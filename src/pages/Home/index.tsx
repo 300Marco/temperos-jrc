@@ -1,4 +1,11 @@
-import { Heart, Plus, SealCheck } from '@phosphor-icons/react'
+import {
+  Drop,
+  Heart,
+  Package,
+  Plus,
+  SealCheck,
+  Truck,
+} from '@phosphor-icons/react'
 
 import tempero1 from '../../assets/tempero-1.svg'
 import tempero2 from '../../assets/tempero-2.svg'
@@ -16,6 +23,10 @@ import {
   SectionVarieties,
   SectionVarietiesContent,
   SectionVarietiesImages,
+  SectionProcesses,
+  SectionProcessContent,
+  SectionProcessCards,
+  Card,
 } from './styles'
 
 export function Home() {
@@ -90,6 +101,67 @@ export function Home() {
 
         <img src={ilustracaoReceitas} alt="" />
       </SectionOptions>
+
+      <SectionProcesses>
+        <SectionProcessContent>
+          <h2>
+            Todos os temperos passam por um processo profissional de embalagem
+            para venda
+          </h2>
+
+          <p>
+            Damos prioridade em todos os processos desde a higienização há
+            embalagem do produto, para que os temperos cheguem bem cuidados até
+            você
+          </p>
+        </SectionProcessContent>
+
+        <SectionProcessCards>
+          <Card>
+            <span>
+              <Package size={60} />
+            </span>
+
+            <h3>Nossas Embalagens</h3>
+
+            <p>
+              Nossos produtos são cuidadosamente embalados, garantindo que cada
+              tempero chegue até você com todo o frescor e qualidade, prontos
+              para elevar seus pratos a um novo patamar de sabor e aromas
+              incríveis!
+            </p>
+          </Card>
+
+          <Card>
+            <span>
+              <Drop size={60} />
+            </span>
+
+            <h3>Cuidado e preocupação na higiene dos produtos</h3>
+
+            <p>
+              Nossa prioridade é a sua segurança e bem-estar! Por isso, cada um
+              dos nossos produtos é produzido e embalado com rigorosos padrões
+              de higiene, garantindo que você desfrute de temperos de qualidade,
+              sem preocupações.
+            </p>
+          </Card>
+
+          <Card>
+            <span>
+              <Truck size={60} />
+            </span>
+
+            <h3>Transporte Rápido</h3>
+
+            <p>
+              Garantimos um transporte seguro e eficiente para que nossos
+              produtos cheguem até você em perfeitas condições, preservando toda
+              a qualidade e frescor dos nossos temperos.
+            </p>
+          </Card>
+        </SectionProcessCards>
+      </SectionProcesses>
     </HomeContainer>
   )
 }
