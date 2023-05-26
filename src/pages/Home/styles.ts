@@ -253,6 +253,11 @@ export const CardContent = styled('div', {
     fontWeight: 600,
     color: '$gray900',
     borderRadius: '8px',
+    transition: 'background-color 200ms',
+
+    '&:hover': {
+      backgroundColor: '$yellow700',
+    },
   },
 })
 

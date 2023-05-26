@@ -17,7 +17,7 @@ export function Banner() {
             seu paladar!
           </p>
 
-          <button>Entre em Contato</button>
+          <a href="#contact">Entre em Contato</a>
         </BoxInfo>
 
         <img

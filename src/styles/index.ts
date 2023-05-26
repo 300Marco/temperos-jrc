@@ -16,12 +16,12 @@ export const { styled, globalCss } = createStitches({
       gray900: '#272221',
 
       green100: '#e9f8f5',
-      green700: '#00a082',
       green500: '#2abb98',
+      green700: '#00a082',
       green900: '#006653',
 
       yellow500: '#ffc244',
-      yellow700: '#c59221',
+      yellow700: '#F9B01A',
       yellow100: '#fdf2e3',
     },
   },

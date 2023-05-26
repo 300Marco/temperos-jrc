@@ -50,13 +50,19 @@ export const BoxInfo = styled('div', {
     lineHeight: '130%',
   },
 
-  button: {
+  a: {
     backgroundColor: '$yellow500',
+    color: '$gray900',
     fontSize: '1.25rem',
     fontWeight: '700',
     padding: '1rem 2rem',
     borderRadius: '8px',
     cursor: 'pointer',
+    transition: 'background-color 200ms',
+
+    '&:hover': {
+      backgroundColor: '$yellow700',
+    },
   },
 })
 

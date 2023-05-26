@@ -174,7 +174,7 @@ export function Home() {
         </SectionProcessCards>
       </SectionProcesses>
 
-      <Divider>
+      <Divider id="contact">
         <img src={linhaOndaAmarela} alt="" />
       </Divider>
 
@@ -193,7 +193,13 @@ export function Home() {
                 </div>
               </CardInfo>
 
-              <a href="#">Enviar Mensagem</a>
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send/?phone=5511983718060&text=Ol%C3%A1%2C+estou+vindo+pelo+site+Temperos+JRC.+Pode+me+passar+seu+cat%C3%A1logo+de+temperos+e+pre%C3%A7os%3F&type=phone_number&app_absent=0"
+                rel="noreferrer"
+              >
+                Enviar Mensagem
+              </a>
             </CardContent>
 
             <CardContent>
@@ -202,7 +208,13 @@ export function Home() {
                 <span>@jrc_temperos</span>
               </CardInfo>
 
-              <a href="#">Acessar Perfil</a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/jrc_temperos/"
+                rel="noreferrer"
+              >
+                Acessar Perfil
+              </a>
             </CardContent>
 
             <CardInfo flexColumn>

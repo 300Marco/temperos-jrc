@@ -5,7 +5,7 @@ export const FooterContainer = styled('footer', {
 
   width: '100%',
   padding: '8.25rem 0',
-  marginTop: '13.875rem',
+  marginTop: '18rem',
   color: '$white',
   backgroundColor: '$gray800',
 
@@ -48,6 +48,14 @@ export const SectionFooter = styled('section', {
 
   svg: {
     color: '$white',
+    transition: '200ms',
+
+    '&:hover': {
+      fontWeight: '700',
+      backgroundColor: '$yellow700',
+      borderRadius: '50%',
+      padding: '3px',
+    },
   },
 
   div: {
