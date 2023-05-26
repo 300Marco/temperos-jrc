@@ -11,6 +11,11 @@ export const BannerContainer = styled('section', {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'start',
+
+  '@mobile': {
+    height: '100%',
+    padding: '0 1rem',
+  },
 })
 
 export const BoxContent = styled('div', {
@@ -20,11 +25,24 @@ export const BoxContent = styled('div', {
   alignItems: 'center',
   justifyContent: 'space-between',
 
-  div: {},
-
   img: {
     width: '28rem',
     height: '28rem',
+  },
+
+  '@mobile': {
+    width: '100%',
+    paddingBottom: '3.5rem',
+
+    flexDirection: 'column',
+    gap: '1rem',
+
+    img: {
+      order: -1,
+      width: '60%',
+      height: '60%',
+      marginBottom: '1rem',
+    },
   },
 })
 
@@ -62,6 +80,18 @@ export const BoxInfo = styled('div', {
 
     '&:hover': {
       backgroundColor: '$yellow700',
+    },
+  },
+
+  '@mobile': {
+    width: '100%',
+
+    h2: {
+      fontSize: '1.75rem',
+    },
+
+    p: {
+      fontSize: '1rem',
     },
   },
 })

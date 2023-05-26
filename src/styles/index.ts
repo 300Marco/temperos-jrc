@@ -25,5 +25,7 @@ export const { styled, globalCss } = createStitches({
       yellow100: '#fdf2e3',
     },
   },
-  media: {}, // settings at the end of the project
+  media: {
+    mobile: '(min-width: 200px) and (max-width: 767px)',
+  }, // settings at the end of the project
 })
