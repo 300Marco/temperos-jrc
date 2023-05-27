@@ -55,6 +55,16 @@ export const FooterBox = styled('section', {
       marginBottom: '2rem',
     },
   },
+
+  '@tablet': {
+    width: '100%',
+    padding: '0 1rem',
+  },
+
+  '@laptop': {
+    width: '100%',
+    padding: '0 1rem',
+  },
 })
 
 export const SectionFooter = styled('section', {
