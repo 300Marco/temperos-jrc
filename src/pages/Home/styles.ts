@@ -98,8 +98,20 @@ export const SectionOptions = styled('section', {
   gap: '2rem',
 
   img: {
-    width: '350px',
-    height: '520px',
+    width: '21.875rem',
+    height: '32.5rem',
+  },
+
+  '@mobile': {
+    width: '100%',
+    padding: '0 1rem',
+
+    flexDirection: 'column',
+
+    img: {
+      display: 'none',
+      visibility: 'hidden',
+    },
   },
 })
 
@@ -114,6 +126,14 @@ export const SectionOptionsContent = styled('div', {
     lineHeight: '160%',
     textAlign: 'center',
     fontFamily: '"Baloo 2", sans-serif',
+  },
+
+  '@mobile': {
+    gap: '2rem',
+
+    h2: {
+      fontSize: '1.25rem',
+    },
   },
 })
 
@@ -139,6 +159,10 @@ export const SectionOptionsInfo = styled('div', {
       alignItems: 'center',
       gap: '1rem',
     },
+  },
+
+  '@mobile': {
+    fontSize: '1rem',
   },
 })
 
