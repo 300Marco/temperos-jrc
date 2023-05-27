@@ -55,7 +55,7 @@ export const SectionVarietiesContent = styled('section', {
 
   '@mobile': {
     h2: {
-      fontSize: '1.25rem',
+      fontSize: '1.5rem',
       lineHeight: '130%',
     },
 
@@ -132,7 +132,7 @@ export const SectionOptionsContent = styled('div', {
     gap: '2rem',
 
     h2: {
-      fontSize: '1.25rem',
+      fontSize: '1.5rem',
     },
   },
 })
@@ -194,11 +194,32 @@ export const SectionProcessContent = styled('div', {
     lineHeight: '130%',
     padding: '0 1rem',
   },
+
+  '@mobile': {
+    padding: '0 1rem',
+
+    h2: {
+      fontSize: '1.5rem',
+      marginBottom: '2rem',
+    },
+
+    p: {
+      fontSize: '1rem',
+      padding: 0,
+    },
+  },
 })
 
 export const SectionProcessCards = styled('div', {
   display: 'flex',
   justifyContent: 'space-between',
+
+  '@mobile': {
+    padding: '0 1rem',
+
+    flexDirection: 'column',
+    gap: '6rem',
+  },
 })
 
 export const Card = styled('div', {
@@ -222,6 +243,7 @@ export const Card = styled('div', {
     padding: '1rem',
     borderRadius: '50%',
     backgroundColor: '$green700',
+
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -242,6 +264,10 @@ export const Card = styled('div', {
     fontSize: '1rem',
     color: '$gray700',
     lineHeight: '130%',
+  },
+
+  '@mobile': {
+    width: '100%',
   },
 })
 
