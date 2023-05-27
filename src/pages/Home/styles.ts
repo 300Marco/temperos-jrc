@@ -284,8 +284,13 @@ export const Divider = styled('div', {
   },
 
   '@mobile': {
-    display: 'none',
-    visibility: 'hidden',
+    height: '1px',
+    margin: 0,
+
+    img: {
+      display: 'none',
+      visibility: 'hidden',
+    },
   },
 })
 

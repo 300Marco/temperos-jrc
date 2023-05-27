@@ -27,5 +27,6 @@ export const { styled, globalCss } = createStitches({
   },
   media: {
     mobile: '(min-width: 200px) and (max-width: 767px)',
+    tabletLaptop: '(min-width: 768px) and (max-width: 1060px)',
   }, // settings at the end of the project
 })
