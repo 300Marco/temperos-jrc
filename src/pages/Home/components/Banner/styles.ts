@@ -50,8 +50,6 @@ export const BoxContent = styled('div', {
   },
 
   '@tablet': {
-    border: '1px solid red',
-
     width: '100%',
     padding: '0 1rem',
 

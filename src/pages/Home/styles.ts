@@ -21,6 +21,10 @@ export const SectionVarieties = styled('section', {
     width: '100%',
     padding: '0 1rem',
   },
+
+  '@tablet': {
+    width: '100%',
+  },
 })
 
 export const SectionVarietiesContent = styled('section', {
@@ -63,6 +67,16 @@ export const SectionVarietiesContent = styled('section', {
       fontSize: '1rem',
     },
   },
+
+  '@tablet': {
+    h2: {
+      fontSize: '2rem',
+    },
+
+    p: {
+      fontSize: '1.125rem',
+    },
+  },
 })
 
 export const SectionVarietiesImages = styled('div', {
@@ -85,6 +99,12 @@ export const SectionVarietiesImages = styled('div', {
       width: '6rem',
       height: '6rem',
     },
+  },
+
+  '@tablet': {
+    width: '100%',
+    gap: '1rem',
+    flexWrap: 'wrap',
   },
 })
 
@@ -113,6 +133,16 @@ export const SectionOptions = styled('section', {
       visibility: 'hidden',
     },
   },
+
+  '@tablet': {
+    width: '100%',
+    padding: '0 1rem',
+
+    img: {
+      width: '17.875rem',
+      height: '28.5rem',
+    },
+  },
 })
 
 export const SectionOptionsContent = styled('div', {
@@ -133,6 +163,12 @@ export const SectionOptionsContent = styled('div', {
 
     h2: {
       fontSize: '1.5rem',
+    },
+  },
+
+  '@tablet': {
+    h2: {
+      fontSize: '1.75rem',
     },
   },
 })
@@ -163,6 +199,10 @@ export const SectionOptionsInfo = styled('div', {
 
   '@mobile': {
     fontSize: '1rem',
+  },
+
+  '@tablet': {
+    fontSize: '1.125rem',
   },
 })
 
