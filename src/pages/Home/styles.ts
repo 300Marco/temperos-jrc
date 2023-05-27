@@ -124,7 +124,7 @@ export const SectionOptions = styled('section', {
 
   '@mobile': {
     width: '100%',
-    padding: '0 1rem',
+    padding: '0 2rem',
 
     flexDirection: 'column',
 
@@ -186,6 +186,8 @@ export const SectionOptionsInfo = styled('div', {
     gap: '2rem',
 
     svg: {
+      width: '2rem',
+      height: '2rem',
       color: '$green700',
     },
 
