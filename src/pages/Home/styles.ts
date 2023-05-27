@@ -390,6 +390,16 @@ export const SectionContact = styled('section', {
       textAlign: 'center',
     },
   },
+
+  '@tablet': {
+    width: '100%',
+    padding: '0 1rem',
+
+    h2: {
+      fontSize: '2rem',
+      textAlign: 'center',
+    },
+  },
 })
 
 export const SectionContactContent = styled('div', {
@@ -412,18 +422,33 @@ export const SectionContactContent = styled('div', {
       visibility: 'hidden',
     },
   },
+
+  '@tablet': {
+    width: '100%',
+    padding: '0 1rem',
+
+    img: {
+      width: '50%',
+    },
+  },
 })
 
 export const SectionContentInfo = styled('div', {
   width: '18.875rem',
 
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '3.75rem',
+
   span: {
     fontWeight: 600,
   },
 
-  display: 'flex',
-  flexDirection: 'column',
-  gap: '3.75rem',
+  '@tablet': {
+    span: {
+      fontSize: '1.125rem',
+    },
+  },
 })
 
 export const CardContent = styled('div', {
