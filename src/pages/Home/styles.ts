@@ -16,6 +16,11 @@ export const SectionVarieties = styled('section', {
   flexDirection: 'column',
   alignItems: 'center',
   gap: '3.75rem',
+
+  '@mobile': {
+    width: '100%',
+    padding: '0 1rem',
+  },
 })
 
 export const SectionVarietiesContent = styled('section', {
@@ -47,6 +52,17 @@ export const SectionVarietiesContent = styled('section', {
   p: {
     color: '$gray700',
   },
+
+  '@mobile': {
+    h2: {
+      fontSize: '1.25rem',
+      lineHeight: '130%',
+    },
+
+    p: {
+      fontSize: '1rem',
+    },
+  },
 })
 
 export const SectionVarietiesImages = styled('div', {
@@ -54,6 +70,22 @@ export const SectionVarietiesImages = styled('div', {
   justifyContent: 'center',
   alignItems: 'center',
   gap: '3rem',
+
+  img: {
+    width: '8.25rem',
+    height: '8.25rem',
+  },
+
+  '@mobile': {
+    width: '100%',
+    gap: '1rem 1rem',
+    flexWrap: 'wrap',
+
+    img: {
+      width: '6rem',
+      height: '6rem',
+    },
+  },
 })
 
 export const SectionOptions = styled('section', {
