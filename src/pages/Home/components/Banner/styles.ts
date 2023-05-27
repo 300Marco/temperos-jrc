@@ -16,6 +16,10 @@ export const BannerContainer = styled('section', {
     height: '100%',
     padding: '0 1rem',
   },
+
+  '@tablet': {
+    height: '32rem',
+  },
 })
 
 export const BoxContent = styled('div', {
@@ -42,6 +46,27 @@ export const BoxContent = styled('div', {
       width: '60%',
       height: '60%',
       marginBottom: '1rem',
+    },
+  },
+
+  '@tablet': {
+    border: '1px solid red',
+
+    width: '100%',
+    padding: '0 1rem',
+
+    img: {
+      width: '40%',
+      height: '40%',
+    },
+  },
+
+  '@laptop': {
+    padding: '0 1rem',
+
+    img: {
+      width: '40%',
+      height: '40%',
     },
   },
 })
@@ -92,6 +117,18 @@ export const BoxInfo = styled('div', {
 
     p: {
       fontSize: '1rem',
+    },
+  },
+
+  '@tablet': {
+    width: '100%',
+
+    h2: {
+      fontSize: '2rem',
+    },
+
+    p: {
+      fontSize: '1.125rem',
     },
   },
 })
