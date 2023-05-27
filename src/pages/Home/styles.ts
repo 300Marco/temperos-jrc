@@ -400,6 +400,10 @@ export const SectionContact = styled('section', {
       textAlign: 'center',
     },
   },
+
+  '@laptop': {
+    width: '100%',
+  },
 })
 
 export const SectionContactContent = styled('div', {
