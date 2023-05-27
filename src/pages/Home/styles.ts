@@ -282,6 +282,11 @@ export const Divider = styled('div', {
   img: {
     width: '100%',
   },
+
+  '@mobile': {
+    display: 'none',
+    visibility: 'hidden',
+  },
 })
 
 export const SectionContact = styled('section', {
@@ -297,6 +302,17 @@ export const SectionContact = styled('section', {
     fontFamily: '"Baloo 2", sans-serif',
     fontWeight: 700,
   },
+
+  '@mobile': {
+    marginTop: '8.25rem',
+    width: '100%',
+    padding: '0 1rem',
+
+    h2: {
+      fontSize: '1.5rem',
+      textAlign: 'center',
+    },
+  },
 })
 
 export const SectionContactContent = styled('div', {
@@ -308,6 +324,16 @@ export const SectionContactContent = styled('div', {
 
   img: {
     width: '21.875rem',
+  },
+
+  '@mobile': {
+    width: '100%',
+    justifyContent: 'center',
+
+    img: {
+      display: 'none',
+      visibility: 'hidden',
+    },
   },
 })
 
