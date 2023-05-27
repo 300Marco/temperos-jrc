@@ -17,6 +17,21 @@ export const globalStyles = globalCss({
   body: {
     backgroundColor: '$background',
     color: '$gray900',
+
+    overflowY: 'auto',
+    overflowX: 'hidden',
+    '&::-webkit-scrollbar': {
+      width: '12px',
+    },
+
+    '&::-webkit-scrollbar-track': {
+      borderRadius: 0,
+    },
+
+    '&::-webkit-scrollbar-thumb': {
+      backgroundColor: '$yellow700',
+      borderRadius: '4px',
+    },
   },
 
   'body, input, textarea, button': {
