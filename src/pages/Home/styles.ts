@@ -248,6 +248,18 @@ export const SectionProcessContent = styled('div', {
       padding: 0,
     },
   },
+
+  '@tablet': {
+    padding: '0 1rem',
+
+    h2: {
+      fontSize: '2rem',
+    },
+
+    p: {
+      fontSize: '1.125rem',
+    },
+  },
 })
 
 export const SectionProcessCards = styled('div', {
@@ -259,6 +271,22 @@ export const SectionProcessCards = styled('div', {
 
     flexDirection: 'column',
     gap: '6rem',
+  },
+
+  '@tablet': {
+    padding: '0 1rem',
+
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    gap: '6rem 1rem',
+  },
+
+  '@laptop': {
+    padding: '0 1rem',
+
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    gap: '6rem 1rem',
   },
 })
 
@@ -308,6 +336,10 @@ export const Card = styled('div', {
 
   '@mobile': {
     width: '100%',
+  },
+
+  '@tablet': {
+    width: '18.25rem',
   },
 })
 
