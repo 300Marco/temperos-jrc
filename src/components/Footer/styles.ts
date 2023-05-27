@@ -15,7 +15,7 @@ export const FooterContainer = styled('footer', {
 
 export const FooterWave = styled('div', {
   position: 'absolute',
-  bottom: '95%',
+  top: '-10%',
   left: 0,
 
   width: '100%',
@@ -26,6 +26,10 @@ export const FooterWave = styled('div', {
 
   img: {
     width: '100%',
+  },
+
+  '@mobile': {
+    top: '-8%',
   },
 })
 
@@ -39,12 +43,30 @@ export const FooterBox = styled('section', {
     width: '10rem',
     height: '10rem',
   },
+
+  '@mobile': {
+    padding: '0 1rem',
+
+    flexDirection: 'column',
+    justifyContent: 'center',
+
+    img: {
+      margin: '0 auto',
+      marginBottom: '2rem',
+    },
+  },
 })
 
 export const SectionFooter = styled('section', {
   display: 'flex',
   flexDirection: 'column',
   gap: '2rem',
+
+  marginBottom: '4rem',
+
+  '&:nth-last-child(1)': {
+    marginBottom: 0,
+  },
 
   svg: {
     color: '$white',
