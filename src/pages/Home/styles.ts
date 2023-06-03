@@ -351,7 +351,7 @@ export const SectionPack = styled('section', {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  gap: '2rem',
+  gap: '4rem',
 
   '@mobile': {
     padding: '0 1rem',
