@@ -401,20 +401,36 @@ export const SectionPackCards = styled('div', {
 })
 
 export const SectionPackCard = styled('div', {
+  overflow: 'hidden',
+  backgroundColor: '$green100',
+
   width: '100%',
   maxWidth: '23rem',
-  padding: '2rem',
   borderRadius: '16px',
-  marginBottom: '2rem',
+  marginBottom: '4rem',
   boxShadow: '8px 8px 16px rgba(0, 0, 0, 0.04)',
 
   display: 'flex',
   flexDirection: 'column',
 
+  span: {
+    backgroundColor: '$background',
+    borderBottomRightRadius: '100%',
+    padding: '2rem 2rem 4rem 2rem',
+    boxShadow: '8px 8px 8px rgba(0, 0, 0, 0.02)',
+
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
   img: {
-    marginBottom: '2rem',
     width: 'auto',
     height: '10rem',
+  },
+
+  div: {
+    padding: '2rem',
   },
 
   'h3, p': {
