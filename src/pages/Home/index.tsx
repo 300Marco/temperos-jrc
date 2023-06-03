@@ -16,6 +16,10 @@ import tempero3 from '../../assets/tempero-3.svg'
 import tempero4 from '../../assets/tempero-4.svg'
 import tempero5 from '../../assets/tempero-5.svg'
 import ilustracaoReceitas from '../../assets/ilustracao-receitas.svg'
+import poteTemepero1 from '../../assets/pote-tempero-1.svg'
+import poteTemepero2 from '../../assets/pote-tempero-2.svg'
+import embalagemSaquinho from '../../assets/embalagem-saquinho.svg'
+import pimentas from '../../assets/pimentas.svg'
 import linhaOndaAmarela from '../../assets/linha-onda-amarela.svg'
 import tabuaTemperos from '../../assets/tabua-temperos-coracao-pequena.svg'
 
@@ -38,6 +42,10 @@ import {
   SectionContentInfo,
   CardContent,
   CardInfo,
+  SectionPack,
+  SectionPackContent,
+  SectionPackCards,
+  SectionPackCard,
 } from './styles'
 
 export function Home() {
@@ -173,6 +181,60 @@ export function Home() {
           </Card>
         </SectionProcessCards>
       </SectionProcesses>
+
+      <SectionPack>
+        <SectionPackContent>
+          <h2>
+            Oferecemos produtos em diferentes embalagens para atender suas
+            preferências
+          </h2>
+
+          <p>Temos opções de armazenamento cuidadoso para seus temperos</p>
+        </SectionPackContent>
+
+        <SectionPackCards>
+          <SectionPackCard>
+            <img src={poteTemepero1} alt="" />
+            <h3>Pote grandes</h3>
+
+            <p>
+              Caso você não possua um recipiente para armazenar seus temperos,
+              oferecemos a opção de enviá-los em um desse recipiente
+            </p>
+          </SectionPackCard>
+
+          <SectionPackCard>
+            <img src={poteTemepero2} alt="" />
+            <h3>Potes pequenos </h3>
+
+            <p>
+              Enviamos esses temperos em embalagens individuais, ideais para os
+              produtos em pó
+            </p>
+          </SectionPackCard>
+
+          <SectionPackCard>
+            <img src={embalagemSaquinho} alt="" />
+            <h3>Embalagens plásticas</h3>
+
+            <p>
+              Oferecemos a opção de enviar os produtos em embalagens plásticas
+              muito bem vedadas, ideal para clientes que já possuem seus
+              próprios recipientes.
+            </p>
+          </SectionPackCard>
+
+          <SectionPackCard>
+            <img src={pimentas} alt="" />
+            <h3>Pimentas</h3>
+
+            <p>
+              Oferecemos pimentas em embalagens de vidro e plástico, para que
+              você possa escolher de acordo com sua preferência.
+            </p>
+          </SectionPackCard>
+        </SectionPackCards>
+      </SectionPack>
 
       <Divider id="contact">
         <img src={linhaOndaAmarela} alt="" />

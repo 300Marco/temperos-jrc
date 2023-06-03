@@ -345,6 +345,75 @@ export const Card = styled('div', {
   },
 })
 
+export const SectionPack = styled('section', {
+  marginTop: '8.25rem',
+  width: '100%',
+  maxWidth: '58rem',
+
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  gap: '2rem',
+})
+
+export const SectionPackContent = styled('div', {
+  textAlign: 'center',
+
+  h2: {
+    marginBottom: '0.5rem',
+    fontFamily: '"Baloo 2", sans-serif',
+    fontSize: '2.25rem',
+  },
+
+  p: {
+    color: '$gray700',
+  },
+})
+
+export const SectionPackCards = styled('div', {
+  width: '100%',
+  maxWidth: '50rem',
+
+  display: 'flex',
+  flexWrap: 'wrap',
+  justifyContent: 'space-between',
+})
+
+export const SectionPackCard = styled('div', {
+  width: '100%',
+  maxWidth: '23rem',
+  padding: '2rem',
+  borderRadius: '16px',
+  marginBottom: '2rem',
+  boxShadow: '8px 8px 16px rgba(0, 0, 0, 0.04)',
+
+  display: 'flex',
+  flexDirection: 'column',
+
+  img: {
+    marginBottom: '2rem',
+    width: 'auto',
+    height: '10rem',
+  },
+
+  'h3, p': {
+    textAlign: 'center',
+  },
+
+  h3: {
+    marginBottom: '1rem',
+    fontFamily: '"Baloo 2", sans-serif',
+    fontWeight: '600',
+    fontSize: '1.5rem',
+  },
+
+  p: {
+    fontSize: '1rem',
+    color: '$gray700',
+    lineHeight: '130%',
+  },
+})
+
 export const Divider = styled('div', {
   width: '100%',
   margin: '6.25rem 0',
