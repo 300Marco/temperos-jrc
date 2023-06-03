@@ -195,7 +195,7 @@ export function Home() {
         <SectionPackCards>
           <SectionPackCard>
             <img src={poteTemepero1} alt="" />
-            <h3>Pote grandes</h3>
+            <h3>Potes grandes</h3>
 
             <p>
               Caso você não possua um recipiente para armazenar seus temperos,
