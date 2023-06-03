@@ -272,6 +272,7 @@ export const SectionProcessCards = styled('div', {
     padding: '0 1rem',
 
     flexDirection: 'column',
+    alignItems: 'center',
     gap: '6rem',
   },
 
@@ -295,7 +296,8 @@ export const SectionProcessCards = styled('div', {
 export const Card = styled('div', {
   position: 'relative',
 
-  width: '22.25rem',
+  width: '100%',
+  maxWidth: '22.25rem',
   padding: '4.5rem 2rem 2rem',
   borderRadius: '2rem',
   backgroundColor: '$green100',
@@ -336,10 +338,6 @@ export const Card = styled('div', {
     lineHeight: '130%',
   },
 
-  '@mobile': {
-    width: '100%',
-  },
-
   '@tablet': {
     width: '18.25rem',
   },
@@ -354,6 +352,10 @@ export const SectionPack = styled('section', {
   flexDirection: 'column',
   alignItems: 'center',
   gap: '2rem',
+
+  '@mobile': {
+    padding: '0 1rem',
+  },
 })
 
 export const SectionPackContent = styled('div', {
@@ -368,6 +370,16 @@ export const SectionPackContent = styled('div', {
   p: {
     color: '$gray700',
   },
+
+  '@mobile': {
+    h2: {
+      fontSize: '1.5rem',
+    },
+
+    p: {
+      fontSize: '1rem',
+    },
+  },
 })
 
 export const SectionPackCards = styled('div', {
@@ -377,6 +389,15 @@ export const SectionPackCards = styled('div', {
   display: 'flex',
   flexWrap: 'wrap',
   justifyContent: 'space-between',
+
+  '@mobile': {
+    justifyContent: 'center',
+  },
+
+  '@tablet': {
+    justifyContent: 'center',
+    padding: '0 1rem',
+  },
 })
 
 export const SectionPackCard = styled('div', {
